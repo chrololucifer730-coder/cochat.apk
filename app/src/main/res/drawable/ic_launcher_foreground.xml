@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Companion chat bubble (electric cyan) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M52,36 h22 c4.4,0 8,3.6 8,8 v14 c0,4.4 -3.6,8 -8,8 h-3 l-7,7 v-7 h-12 c-4.4,0 -8,-3.6 -8,-8 v-14 c0,-4.4 3.6,-8 8,-8 z" />
+    <!-- Companion bubble dot -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M67,49 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+    <!-- Primary chat bubble (crisp white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,44 h24 c4.4,0 8,3.6 8,8 v16 c0,4.4 -3.6,8 -8,8 h-13 l-9,9 v-9 h-2 c-4.4,0 -8,-3.6 -8,-8 v-16 c0,-4.4 3.6,-8 8,-8 z" />
+    <!-- Primary bubble conversation dots (accent electric blue) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M39,60 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M46,60 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M53,60 m-2.2,0 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+</vector>

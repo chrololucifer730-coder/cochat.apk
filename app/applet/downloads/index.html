@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends Chat - Direct Downloads</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background-color: #0f172a; color: #f8fafc; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 20px; padding: 28px; max-width: 440px; width: 100%; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4); text-align: center; }
+    .icon { font-size: 50px; margin-bottom: 12px; }
+    h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; color: #ffffff; }
+    p.sub { font-size: 14px; color: #94a3b8; margin-bottom: 24px; }
+    .btn { display: flex; align-items: center; justify-content: center; width: 100%; padding: 16px; margin: 12px 0; border-radius: 12px; font-size: 16px; font-weight: 600; text-decoration: none; transition: all 0.2s ease; }
+    .btn-aab { background: #6366f1; color: white; box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4); }
+    .btn-aab:hover { background: #4f46e5; }
+    .btn-apk { background: #059669; color: white; box-shadow: 0 4px 14px rgba(5, 150, 105, 0.4); }
+    .btn-apk:hover { background: #047857; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: 600; background: #334155; color: #38bdf8; margin-bottom: 16px; }
+    .details { background: #0f172a; border-radius: 10px; padding: 12px; margin-top: 20px; font-size: 12px; color: #64748b; text-align: left; }
+    .details div { margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">💬</div>
+    <h1>Friends Chat</h1>
+    <span class="badge">Google Play Ready</span>
+    <p class="sub">Download your release Android App Bundle (.aab) directly to your device.</p>
+
+    <a href="/FriendsChat-release.aab" download="FriendsChat-release.aab" class="btn btn-aab">
+      ⬇️ Download .AAB (15 MB)
+    </a>
+
+    <a href="/app-debug.apk" download="FriendsChat-debug.apk" class="btn btn-apk">
+      📱 Download Test APK (23 MB)
+    </a>
+
+    <div class="details">
+      <div><strong>Package:</strong> com.aistudio.friendschat.vqmzla</div>
+      <div><strong>Version:</strong> 1.0.0 (Code 1)</div>
+      <div><strong>Target:</strong> Google Play Store Production / Testing</div>
+    </div>
+  </div>
+</body>
+</html>
